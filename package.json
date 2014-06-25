@@ -1,0 +1,30 @@
+{
+    "name": "iml",
+    "description": "Indentation Markup Language",
+    "version": "0.1.0",
+    "author": "Ludovic Chaboud",
+    "private": false,
+    "homepage": "https://github.com/lchaboud/iml-js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lchaboud/iml-js.git"
+    },
+    "bugs": {
+        "url": "http://github.com/lchaboud/iml-js/issues"
+    },
+    "licenses": [
+        {
+            "type": "APACHE LICENCE V2",
+            "url": "https://github.com/lchaboud/iml-js/blob/master/LICENSE"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "main": "lib/iml.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {
+    }
+}
