@@ -76,3 +76,4 @@ console.log(data);
 ```
 
 You can get a sample project here :
+https://github.com/lchaboud/iml-js/tree/master/sample
