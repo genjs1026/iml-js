@@ -1,5 +1,5 @@
-iml-js : IML - Indentation Markup Language - Javascript Parser
----
+iml-js : IML Javascript Parser
+===
 
 What is IML ?
 ---
