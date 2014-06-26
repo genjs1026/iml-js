@@ -1,17 +1,13 @@
-iml-js
-======
-
-IML - Indentation Markup Language - Javascript Parser
+iml-js : IML - Indentation Markup Language - Javascript Parser
 ---
 
 What is IML ?
 ---
 
-IML means Indentation Markup Language because the indentation delimits elements information.
+IML means " Indentation Markup Language " because the indentation delimits elements information.
 
 The IML syntax is similar to YAML syntax, but IML is more easy to edit with less pitfalls :
  - we have not to add ```:``` at the end of each map keys
- - there is no ```" "``` to define strings because all values are string by default
  - multilines are easy to define with ```>``` symbol with no break line after it
  - we have not to add a tiret ```-``` before each element of a list : only one line with a tiret ```-``` at the first line indicates that all children elements are in the list
 
