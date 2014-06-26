@@ -1,4 +1,4 @@
-liml-js : LIML - light indentation markup language - Javascript Parser
+liml-js : LIML Javascript Parser
 ---
 
 What is LIML ?
