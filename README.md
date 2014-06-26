@@ -43,7 +43,7 @@ My recipes
             nicely browned.
 ```
 
-ML syntax is described in the README file of the IML project : 
+IML syntax is described in the README file of the IML project : 
 https://github.com/lchaboud/iml/blob/master/SYNTAX.md
 
 You can see a complete IML file sample here :
