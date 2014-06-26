@@ -49,24 +49,24 @@ https://github.com/lchaboud/iml/blob/master/SYNTAX.md
 You can see a complete IML file sample here :
 https://github.com/lchaboud/iml/blob/master/SAMPLE.md
 
-Convert IML to Javascript
+Get data from IML
 ===
 
-Convert IML string content to a Javascript object
+Get data from IML string content
 ---
 ```js
 var iml = require('./lib/iml');
-var data = iml.iml2js("...iml content to parse...");
+var data = iml.iml2js("iml content ...");
 ```
 
-Convert IML file to a Javascript object
+Get data from IML file
 ---
 ```js
 var iml = require('./lib/iml');
 var fs = require('fs');
 var path = require('path');
 
-var filename = "model2.sml";
+var filename = "data.iml";
 var fileContent = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
 
 var data = iml.iml2js(fileContent);
