@@ -62,7 +62,7 @@ var liml = require('./lib/liml');
 var fs = require('fs');
 var path = require('path');
 
-var filename = "data.iml";
+var filename = "data.liml";
 var fileContent = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
 
 var data = liml.liml2js(fileContent);
