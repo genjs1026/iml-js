@@ -1,7 +1,7 @@
 {
     "name": "iml",
     "description": "Indentation Markup Language",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Ludovic Chaboud",
     "private": false,
     "homepage": "https://github.com/lchaboud/iml-js",
