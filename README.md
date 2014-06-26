@@ -1,17 +1,17 @@
-iml-js : IML - Indentation Markup Language - Javascript Parser
+liml-js : LIML - light indentation markup language - Javascript Parser
 ---
 
-What is IML ?
+What is LIML ?
 ---
 
-IML means " Indentation Markup Language " because the indentation delimits elements information.
+LIML means " Light Indentation Markup Language " because the indentation delimits elements information.
 
-The IML syntax is similar to YAML syntax, but IML is more easy to edit with less pitfalls :
+The LIML syntax is similar to YAML syntax, but LIML is more easy to edit with less pitfalls :
  - we have not to add ```:``` at the end of each map keys
  - multilines are easy to define with ```>``` symbol with no break line after it
  - we have not to add a tiret ```-``` before each element of a list : only one line with a tiret ```-``` at the first line indicates that all children elements are in the list
 
-See a sample of IML content :
+See a sample of LIML content :
 ```
 My recipes
   -
@@ -39,19 +39,19 @@ My recipes
             nicely browned.
 ```
 
-IML syntax is described in the README file of the IML project : 
+LIML syntax is described in the README file of the LIML project : 
 https://github.com/lchaboud/iml/blob/master/SYNTAX.md
 
 You can see a comparison between LIML and YAML and JSON here :
 https://github.com/lchaboud/iml/blob/master/SAMPLE.md
 
-Get data from IML
+Get data from LIML
 ===
 
-Get data from IML string
+Get data from LIML string
 ---
 ```js
-var iml = require('./lib/iml');
+var liml = require('./lib/liml');
 var data = iml.iml2js("iml content ...");
 ```
 
