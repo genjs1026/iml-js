@@ -43,10 +43,7 @@ My recipes
             nicely browned.
 ```
 
-
-Javascript Parser for IML files.
-
-IML syntax is described in the README file of the IML project : 
+ML syntax is described in the README file of the IML project : 
 https://github.com/lchaboud/iml/blob/master/SYNTAX.md
 
 You can see a complete IML file sample here :
