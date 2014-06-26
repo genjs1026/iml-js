@@ -42,7 +42,7 @@ My recipes
 IML syntax is described in the README file of the IML project : 
 https://github.com/lchaboud/iml/blob/master/SYNTAX.md
 
-You can see a comparison between IML and YAML and JSON here :
+You can see a comparison between LIML and YAML and JSON here :
 https://github.com/lchaboud/iml/blob/master/SAMPLE.md
 
 Get data from IML
