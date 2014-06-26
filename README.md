@@ -56,18 +56,18 @@ Convert IML string content to a Javascript object
 ---
 ```js
 var iml = require('./lib/iml');
-var output = iml.iml2js("...iml content to parse...");
+var data = iml.iml2js("...iml content to parse...");
 ```
 
 Convert IML file to a Javascript object
 ---
 ```js
-var liml = require('./lib/liml');
+var iml = require('./lib/iml');
 var fs = require('fs');
 var path = require('path');
 
 var filename = "model2.sml";
-var content = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
+var fileContent = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
 
-var output = liml.liml2js(content);
+var data = iml.iml2js(fileContent);
 ```
