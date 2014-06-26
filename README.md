@@ -1,18 +1,22 @@
 iml-js : IML Javascript Parser
 ===
-
 What is IML ?
+===
+
+IML means " Indentation Markup Language " because the indentation delimits elements informations area.
+
+The main objective  is to have the most simplified syntax than others in order to describe data easily.
+An IML file must be comprehensive and editable by any human.
+
+This syntax permits to describe the same data structure than JSON or YAML, but in a simplified way.
+
+And why not YAML ?
 ---
-
-IML means " Indentation Markup Language " because the indentation delimits elements information.
-
 The IML syntax is similar to YAML syntax, but IML is more easy to edit with less pitfalls :
  - we have not to add ```:``` at the end of each map keys
- - all values are string by default
- - multilines are easy to define with ```>``` symbol with no break line after it
- - we have not to add a tiret ```-``` before each element of a list : only one line with a tiret ```-``` at the first line indicates that all children elements are in the list
+ - we have not to add a tiret ```-``` before each element of a list : only one line with a tiret ```-``` at the beginning of the list indicates that all children elements are in this list
+ - multilines are easy to define with ```>``` symbol before the first line with no break line after it
 
-See a sample of IML content :
 ```
 My recipes
   -
