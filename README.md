@@ -52,7 +52,7 @@ https://github.com/lchaboud/iml/blob/master/SAMPLE.md
 Get data from IML
 ===
 
-Get data from IML string content
+Get data from IML string
 ---
 ```js
 var iml = require('./lib/iml');
