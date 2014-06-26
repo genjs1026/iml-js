@@ -55,15 +55,15 @@ var liml = require('./lib/liml');
 var data = iml.iml2js("iml content ...");
 ```
 
-Get data from IML file
+Get data from LIML file
 ---
 ```js
-var iml = require('./lib/iml');
+var liml = require('./lib/liml');
 var fs = require('fs');
 var path = require('path');
 
 var filename = "data.iml";
 var fileContent = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
 
-var data = iml.iml2js(fileContent);
+var data = liml.liml2js(fileContent);
 ```
