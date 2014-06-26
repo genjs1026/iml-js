@@ -49,17 +49,17 @@ https://github.com/lchaboud/iml/blob/master/SYNTAX.md
 You can see a complete IML file sample here :
 https://github.com/lchaboud/iml/blob/master/SAMPLE.md
 
-IML to Javascript : iml2js
+Convert IML to Javascript
 ===
 
-Parse iml string content
+Convert IML string content to a Javascript object
 ---
 ```js
 var iml = require('./lib/iml');
 var output = iml.iml2js("...iml content to parse...");
 ```
 
-Parse iml file
+Convert IML file to a Javascript object
 ---
 ```js
 var liml = require('./lib/liml');
