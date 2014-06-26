@@ -15,6 +15,7 @@ The IML syntax is similar to YAML syntax, but IML is more easy to edit with less
  - multilines are easy to define with ```>``` symbol with no break line after it
  - we have not to add a tiret ```-``` before each element of a list : only one line with a tiret ```-``` at the first line indicates that all children elements are in the list
 
+See a sample of IML content :
 ```
 My recipes
   -
