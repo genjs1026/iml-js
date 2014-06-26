@@ -56,14 +56,14 @@ Get data from IML
 Get data from IML string
 ---
 ```js
-var iml = require('./lib/iml');
+var iml = require('iml');
 var data = iml.iml2js("iml content ...");
 ```
 
 Get data from IML file
 ---
 ```js
-var iml = require('./lib/iml');
+var iml = require('iml');
 var fs = require('fs');
 var path = require('path');
 
@@ -71,4 +71,8 @@ var filename = "data.iml";
 var fileContent = fs.readFileSync(path.join(process.cwd(), filename), 'utf8');
 
 var data = iml.iml2js(fileContent);
+
+console.log(data);
 ```
+
+You can get a sample project here :
