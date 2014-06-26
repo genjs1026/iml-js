@@ -1,10 +1,10 @@
-liml-js
+iml-js
 ======
 
-LIML - Light Indentation Markup Language - Javascript Parser
+IML - Indentation Markup Language - Javascript Parser
 ---
 
-What is LIML ?
+What is IML ?
 ---
 
 IML means Indentation Markup Language because the indentation delimits elements information.
