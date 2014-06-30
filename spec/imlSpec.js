@@ -50,6 +50,14 @@ describe("basics data", function() {
     expect(data.n1[0]).toBe("n11");
     expect(data.n1[1]).toBe("n12");
   });
+  it("one line has a tabulation", function() {
+    var data = iml.iml2js("n1\n \t -\n \t \t n11\n         n12");
+    expect(Object.keys(data).length).toBe(1);
+    expect(data.n1 instanceof Array).toBe(true);
+    expect(Object.keys(data.n1).length).toBe(2);
+    expect(data.n1[0]).toBe("n11");
+    expect(data.n1[1]).toBe("n12");
+  });
   it("the first list element is an object with a value", function() {
     var data = iml.iml2js("n1\n -\n  n11\n   n111")
     expect(Object.keys(data).length).toBe(1);
