@@ -23,7 +23,11 @@
     },
     "main": "lib/iml.js",
     "scripts": {
-        "start": "node main.js"
+        "start": "node main.js",
+        "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+    },
+    "devDependencies": {
+        "jasmine-node": "*"
     },
     "dependencies": {
     }
