@@ -1,5 +1,10 @@
 iml-js : IML Javascript Parser
 ===
+Changelog
+---
+* Unit tests : tap ```npm test``` to launch tests
+* Tabulation : 1 tabulation equals to 4 spaces character
+
 What is IML ?
 ===
 
