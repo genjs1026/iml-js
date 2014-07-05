@@ -62,7 +62,7 @@ https://github.com/lchaboud/iml/blob/master/SAMPLE.md
 How To
 ===
 
-Convert Javascript data to IML string
+Convert Javascript data to IML
 ---
 ```js
 var iml = require('iml');
@@ -70,7 +70,7 @@ var data = ... // Javascript data
 var imlContent = iml.js2iml(data);
 ```
 
-Convert IML string to Javascript data
+Convert IML to Javascript data
 ---
 ```js
 var iml = require('iml');
