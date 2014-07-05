@@ -21,3 +21,5 @@ You get this result :
 ```
 { 'My recipes': [ { 'Best Chocolate Chip Cookies': [Object] } ] }
 ```
+
+And the file ```data2.iml``` is an IML export file of data loaded from the first IML file ```data.iml```.
