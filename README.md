@@ -2,6 +2,10 @@ iml-js : IML Javascript Parser
 ===
 Changelog
 ---
+07/05/14
+* Add ```js2iml``` to convert javascript to iml
+* Add Unit tests for ```js2iml```
+07/02/14
 * Unit tests : tap ```npm test``` to launch tests
 * Tabulation : 1 tabulation equals to 4 spaces character
 
@@ -55,17 +59,25 @@ https://github.com/lchaboud/iml/blob/master/SYNTAX.md
 You can see a comparison between IML and YAML and JSON here :
 https://github.com/lchaboud/iml/blob/master/SAMPLE.md
 
-Get data from IML
+How To
 ===
 
-Get data from IML string
+Convert Javascript data to IML string
+---
+```js
+var iml = require('iml');
+var data = ... // Javascript data
+var imlContent = iml.js2iml(data);
+```
+
+Convert IML string to Javascript data
 ---
 ```js
 var iml = require('iml');
 var data = iml.iml2js("iml content ...");
 ```
 
-Get data from IML file
+Read IML file to Javascript data
 ---
 ```js
 var iml = require('iml');
@@ -80,5 +92,21 @@ var data = iml.iml2js(fileContent);
 console.log(data);
 ```
 
+Write Javascript data in IML file
+---
+```js
+var iml = require('iml');
+var fs = require('fs');
+var path = require('path');
+
+var data = ... ; // Javascript data
+var imlContent = iml.js2iml(data);
+
+var filename = "data2.iml";
+fs.writeFileSync(path.join(process.cwd(), filename), imlContent, 'utf8');
+```
+
+Sample project
+---
 You can get a sample project here :
 https://github.com/lchaboud/iml-js/tree/master/sample
