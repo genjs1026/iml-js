@@ -1,5 +1,10 @@
 iml-js : IML Javascript Parser
 ===
+
+Forum
+---
+Give your opinion about IML on the forum: http://628906.xobor.com/f3-IML.html
+
 Changelog
 ---
 07/05/14
