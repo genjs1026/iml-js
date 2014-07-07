@@ -9,7 +9,7 @@ describe("basics data", function() {
   it("gets one node", function() {
     var data = iml.iml2js("n1")
     expect(Object.keys(data).length).toBe(1);
-    expect(n1).toBe(null);
+    expect(data.n1).toBe(null);
   });
   it("gets two nodes at the same level", function() {
     var data = iml.iml2js("n1\nn2")
