@@ -168,18 +168,20 @@ describe("basics data", function() {
     expect(data.length).toBe(2);
     expect(Object.keys(data[0]).length).toBe(1);
     expect(data[0]["n11"]).toBe(null);
-    expect(Object.keys(data[1]).length).toBe(0);
+    expect(data[1]).toBe("n12");
   });
   it("first array element is an object with one property and a value", function() {
     var data = iml.iml2js("-\n  *\n    n11\n      n111");
     expect(data instanceof Array).toBe(true);
     expect(data.length).toBe(1);
+    expect(Object.keys(data[0]).length).toBe(1);
     expect(data[0]["n11"]).toBe("n111");
   });
   it("first array element is an object with two properties", function() {
     var data = iml.iml2js("-\n  *\n    n11\n    n12");
     expect(data instanceof Array).toBe(true);
     expect(data.length).toBe(1);
+    expect(Object.keys(data[0]).length).toBe(2);
     expect(data[0]["n11"]).toBe(null);
     expect(data[0]["n12"]).toBe(null);
   });
